@@ -1,0 +1,10 @@
+[
+{"method" : "distr", "threads" : 2, "frames" : 20000, "size" : 2400, "time" : 238.114564, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 4, "frames" : 20000, "size" : 2400, "time" : 174.857498, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 8, "frames" : 20000, "size" : 2400, "time" : 149.721586, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 16, "frames" : 20000, "size" : 2400, "time" : 143.435505, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 32, "frames" : 20000, "size" : 2400, "time" : 260.583971, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 64, "frames" : 20000, "size" : 2400, "time" : 273.476493, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 128, "frames" : 20000, "size" : 2400, "time" : 274.377516, "notes" : "time in seconds"},
+{"eof" : 1}
+]

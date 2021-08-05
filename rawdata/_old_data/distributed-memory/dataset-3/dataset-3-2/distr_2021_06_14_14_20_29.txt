@@ -1,0 +1,1 @@
+{"method" : "distr", "threads" : 2, "frames" : 20000, "size" : 1600, "time" : 115.296174, "notes" : "time in seconds"}

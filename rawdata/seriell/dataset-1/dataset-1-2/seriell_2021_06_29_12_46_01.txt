@@ -1,0 +1,1 @@
+{"method" : "seriell", "threads" : 1, "frames" : 20000, "size" : 400, "time" : 473.991000, "notes" : "time in seconds"}

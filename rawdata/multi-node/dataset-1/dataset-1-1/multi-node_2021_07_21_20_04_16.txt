@@ -1,0 +1,1 @@
+{"method" : "multi-node", "threads" : 32, "frames" : 20000, "size" : 1000, "time" : 49.258954, "notes" : "time in seconds"}

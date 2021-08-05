@@ -1,0 +1,19 @@
+[
+{"method" : "distr", "threads" : 2, "frames" : 20000, "size" : 1600, "time" : 93.612528, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 4, "frames" : 20000, "size" : 1600, "time" : 50.178487, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 8, "frames" : 20000, "size" : 1600, "time" : 42.282077, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 16, "frames" : 20000, "size" : 1600, "time" : 64.329648, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 20, "frames" : 20000, "size" : 1600, "time" : 72.687640, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 24, "frames" : 20000, "size" : 1600, "time" : 94.505131, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 28, "frames" : 20000, "size" : 1600, "time" : 103.483596, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 32, "frames" : 20000, "size" : 1600, "time" : 125.443428, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 36, "frames" : 20000, "size" : 1600, "time" : 127.492451, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 40, "frames" : 20000, "size" : 1600, "time" : 127.499689, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 44, "frames" : 20000, "size" : 1600, "time" : 127.890046, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 48, "frames" : 20000, "size" : 1600, "time" : 125.036801, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 52, "frames" : 20000, "size" : 1600, "time" : 125.976215, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 56, "frames" : 20000, "size" : 1600, "time" : 124.849758, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 60, "frames" : 20000, "size" : 1600, "time" : 127.403187, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 64, "frames" : 20000, "size" : 1600, "time" : 125.525784, "notes" : "time in seconds"},
+{"eof" : 1}
+]

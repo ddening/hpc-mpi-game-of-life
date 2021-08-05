@@ -1,0 +1,1 @@
+{"method" : "dstrb_sr", "threads" : 80, "frames" : 20000, "size" : 1000, "time" : 23.720075, "notes" : "time in seconds"}

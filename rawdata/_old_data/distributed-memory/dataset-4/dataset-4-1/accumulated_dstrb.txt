@@ -1,0 +1,19 @@
+[
+{"method" : "distr", "threads" : 2, "frames" : 20000, "size" : 400, "time" : 4.108477, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 4, "frames" : 20000, "size" : 400, "time" : 2.498441, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 8, "frames" : 20000, "size" : 400, "time" : 1.500705, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 16, "frames" : 20000, "size" : 400, "time" : 1.093364, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 20, "frames" : 20000, "size" : 400, "time" : 1.020768, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 24, "frames" : 20000, "size" : 400, "time" : 1.199272, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 28, "frames" : 20000, "size" : 400, "time" : 1.084942, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 32, "frames" : 20000, "size" : 400, "time" : 2.871018, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 36, "frames" : 20000, "size" : 400, "time" : 2.439893, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 40, "frames" : 20000, "size" : 400, "time" : 2.877085, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 44, "frames" : 20000, "size" : 400, "time" : 2.067997, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 48, "frames" : 20000, "size" : 400, "time" : 2.343071, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 52, "frames" : 20000, "size" : 400, "time" : 1.447133, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 56, "frames" : 20000, "size" : 400, "time" : 3.159125, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 60, "frames" : 20000, "size" : 400, "time" : 3.363744, "notes" : "time in seconds"},
+{"method" : "distr", "threads" : 64, "frames" : 20000, "size" : 400, "time" : 2.313469, "notes" : "time in seconds"},
+{"eof" : 1}
+]

@@ -1,0 +1,1 @@
+{"method" : "optmzd", "threads" : 1, "frames" : 20000, "size" : 800, "time" : 33.576000, "notes" : "time in seconds"}

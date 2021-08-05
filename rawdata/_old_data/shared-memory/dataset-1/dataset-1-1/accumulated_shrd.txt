@@ -1,0 +1,11 @@
+[
+{"method" : "shrd", "threads" : 2, "frames" : 10000, "size" : 1000, "time" : 12.441775, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 4, "frames" : 10000, "size" : 1000, "time" : 6.962955, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 6, "frames" : 10000, "size" : 1000, "time" : 5.609457, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 8, "frames" : 10000, "size" : 1000, "time" : 4.655453, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 10, "frames" : 10000, "size" : 1000, "time" : 4.273990, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 12, "frames" : 10000, "size" : 1000, "time" : 3.973791, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 14, "frames" : 10000, "size" : 1000, "time" : 4.702420, "notes" : "time in seconds"},
+{"method" : "shrd", "threads" : 16, "frames" : 10000, "size" : 1000, "time" : 123.372250, "notes" : "time in seconds"},
+{"eof" : 1}
+]

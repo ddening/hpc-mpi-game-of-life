@@ -1,0 +1,1090 @@
+Running perfomance evaluation ...
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 2
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 29.321116 seconds
+
+Data was exported into file dstrb_2021_06_28_19_37_03.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 4
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 17.556042 seconds
+
+Data was exported into file dstrb_2021_06_28_19_37_25.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 6
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 13.640160 seconds
+
+Data was exported into file dstrb_2021_06_28_19_37_43.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 8
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 11.705301 seconds
+
+Data was exported into file dstrb_2021_06_28_19_37_59.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 10
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 10.738394 seconds
+
+Data was exported into file dstrb_2021_06_28_19_38_14.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 12
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 10.760902 seconds
+
+Data was exported into file dstrb_2021_06_28_19_38_29.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 14
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 11.989875 seconds
+
+Data was exported into file dstrb_2021_06_28_19_38_45.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 16
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 11.906758 seconds
+
+Data was exported into file dstrb_2021_06_28_19_39_01.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 18
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 14.919321 seconds
+
+Data was exported into file dstrb_2021_06_28_19_39_21.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 20
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 16.119858 seconds
+
+Data was exported into file dstrb_2021_06_28_19_39_41.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 22
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 17.017638 seconds
+
+Data was exported into file dstrb_2021_06_28_19_40_03.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 24
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 16.682072 seconds
+
+Data was exported into file dstrb_2021_06_28_19_40_24.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 26
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 16.952322 seconds
+
+Data was exported into file dstrb_2021_06_28_19_40_46.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 28
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 18.192158 seconds
+
+Data was exported into file dstrb_2021_06_28_19_41_09.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 30
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.647464 seconds
+
+Data was exported into file dstrb_2021_06_28_19_41_37.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 32
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 21.666634 seconds
+
+Data was exported into file dstrb_2021_06_28_19_42_05.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 34
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.123328 seconds
+
+Data was exported into file dstrb_2021_06_28_19_42_33.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 36
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.662998 seconds
+
+Data was exported into file dstrb_2021_06_28_19_43_02.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 38
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.637066 seconds
+
+Data was exported into file dstrb_2021_06_28_19_43_32.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 40
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 20.596709 seconds
+
+Data was exported into file dstrb_2021_06_28_19_44_00.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 42
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 21.743727 seconds
+
+Data was exported into file dstrb_2021_06_28_19_44_26.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 44
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.474085 seconds
+
+Data was exported into file dstrb_2021_06_28_19_44_54.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 46
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.764397 seconds
+
+Data was exported into file dstrb_2021_06_28_19_45_22.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 48
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.531927 seconds
+
+Data was exported into file dstrb_2021_06_28_19_45_49.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 50
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.188302 seconds
+
+Data was exported into file dstrb_2021_06_28_19_46_17.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 52
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 21.249276 seconds
+
+Data was exported into file dstrb_2021_06_28_19_46_43.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 54
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.474657 seconds
+
+Data was exported into file dstrb_2021_06_28_19_47_13.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 56
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.245237 seconds
+
+Data was exported into file dstrb_2021_06_28_19_47_40.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 58
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 21.304607 seconds
+
+Data was exported into file dstrb_2021_06_28_19_48_07.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 60
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.176610 seconds
+
+Data was exported into file dstrb_2021_06_28_19_48_36.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 62
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.213979 seconds
+
+Data was exported into file dstrb_2021_06_28_19_49_03.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 64
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.424515 seconds
+
+Data was exported into file dstrb_2021_06_28_19_49_32.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 66
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.698693 seconds
+
+Data was exported into file dstrb_2021_06_28_19_50_03.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 68
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.492354 seconds
+
+Data was exported into file dstrb_2021_06_28_19_50_32.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 70
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.392765 seconds
+
+Data was exported into file dstrb_2021_06_28_19_51_00.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 72
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.495939 seconds
+
+Data was exported into file dstrb_2021_06_28_19_51_29.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 74
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.686218 seconds
+
+Data was exported into file dstrb_2021_06_28_19_51_57.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 76
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.311084 seconds
+
+Data was exported into file dstrb_2021_06_28_19_52_27.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 78
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.904373 seconds
+
+Data was exported into file dstrb_2021_06_28_19_52_57.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 80
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.782422 seconds
+
+Data was exported into file dstrb_2021_06_28_19_53_25.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 82
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.728865 seconds
+
+Data was exported into file dstrb_2021_06_28_19_53_54.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 84
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.015421 seconds
+
+Data was exported into file dstrb_2021_06_28_19_54_23.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 86
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.426506 seconds
+
+Data was exported into file dstrb_2021_06_28_19_54_50.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 88
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.859362 seconds
+
+Data was exported into file dstrb_2021_06_28_19_55_19.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 90
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.050538 seconds
+
+Data was exported into file dstrb_2021_06_28_19_55_47.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 92
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.934104 seconds
+
+Data was exported into file dstrb_2021_06_28_19_56_16.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 94
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.235561 seconds
+
+Data was exported into file dstrb_2021_06_28_19_56_47.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 96
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.851859 seconds
+
+Data was exported into file dstrb_2021_06_28_19_57_16.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 98
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 26.033625 seconds
+
+Data was exported into file dstrb_2021_06_28_19_57_48.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 100
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.718370 seconds
+
+Data was exported into file dstrb_2021_06_28_19_58_23.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 102
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.270734 seconds
+
+Data was exported into file dstrb_2021_06_28_19_58_52.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 104
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.678891 seconds
+
+Data was exported into file dstrb_2021_06_28_19_59_22.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 106
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 23.521051 seconds
+
+Data was exported into file dstrb_2021_06_28_19_59_56.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 108
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.022204 seconds
+
+Data was exported into file dstrb_2021_06_28_20_00_26.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 110
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.844093 seconds
+
+Data was exported into file dstrb_2021_06_28_20_01_03.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 112
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.592705 seconds
+
+Data was exported into file dstrb_2021_06_28_20_01_34.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 114
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.810090 seconds
+
+Data was exported into file dstrb_2021_06_28_20_02_09.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 116
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 24.885829 seconds
+
+Data was exported into file dstrb_2021_06_28_20_02_45.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 118
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.230281 seconds
+
+Data was exported into file dstrb_2021_06_28_20_03_16.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 120
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 25.954608 seconds
+
+Data was exported into file dstrb_2021_06_28_20_03_52.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 122
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 28.102878 seconds
+
+Data was exported into file dstrb_2021_06_28_20_04_26.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 124
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 22.739464 seconds
+
+Data was exported into file dstrb_2021_06_28_20_04_59.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 126
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 28.857234 seconds
+
+Data was exported into file dstrb_2021_06_28_20_05_34.txt
+// ================================
+//
+//	Running Game on Distributed Memory ...
+//	Threads		: 128
+//	Frames		: 20000
+//	Field		: 1000x1000
+//	Input  file	: density-60-2400x2400.lif
+//	Output file	: odstrb_2.lif
+//
+// ================================
+Data was written into file.
+Data was written into file.
+// \\     //
+//  \\   //
+//   \\_// Duration: 28.908082 seconds
+
+Data was exported into file dstrb_2021_06_28_20_06_13.txt
+Finished!

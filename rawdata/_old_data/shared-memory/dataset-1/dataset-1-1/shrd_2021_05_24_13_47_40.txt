@@ -1,0 +1,1 @@
+{"method" : "shrd", "threads" : 6, "frames" : 10000, "size" : 1000, "time" : 5.609457, "notes" : "time in seconds"}
