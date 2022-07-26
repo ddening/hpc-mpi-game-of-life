@@ -1,9 +1,0 @@
-﻿  mem_optimized.c
-C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\mem_optimized.c(143,26): warning C4013: "time" undefiniert; Annahme: extern mit Rückgabetyp int
-C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\mem_optimized.c(242,62): warning C4029: Deklarierte Liste formaler Parameter weicht von der Definition ab
-  Code wird generiert.
-  5 of 29 functions (17.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    3 functions had inline decision re-evaluated but remain unchanged
-  Codegenerierung ist abgeschlossen.
-  parallel.vcxproj -> C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\x64\Release\parallel.exe
