@@ -55,7 +55,7 @@ void DistrMemory(unsigned w, unsigned h, unsigned frames, char* input_field_file
 
 	// =================================================
 	// 
-	//DISTRIBUTED MEMORY
+	//          DISTRIBUTED MEMORY
 	// 
 	// =================================================
 	m = GameMap_Init_Distr(w, h, input_field_filename);
@@ -66,7 +66,7 @@ void DistrMemory(unsigned w, unsigned h, unsigned frames, char* input_field_file
 
 	// =================================================
 	// 
-	//			RANK0 to RANKn working on field
+	//          RANK0 to RANKn working on field
 	// 
 	// =================================================
 	prev_rank = (rank == 0) ? process_count - 1 : rank - 1;
@@ -118,7 +118,7 @@ void DistrMemory(unsigned w, unsigned h, unsigned frames, char* input_field_file
 	
 	// =================================================
 	// 
-	//					Merge Image
+	//                  Merge Image
 	// 
 	// =================================================
 	char* buffer;
