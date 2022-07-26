@@ -1,0 +1,2021 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferenzierender NULL-Zeiger \"file_content\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 2,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" kann NULL sein. (In diese Verzweigung eintreten)"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" wird dereferenziert, kann jedoch weiterhin NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"ftell\". In Zeile 12 finden Sie einen früheren Ort, an dem dies vorkommen kann."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 7,
+                  "endLine": 13,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"ftell\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:286 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"ftell\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Pufferüberlauf beim Schreiben nach \"file_content\":  die schreibbare Größe beträgt \"sizeof(char)*((file_size+1))\" Byte, es können jedoch \"4294967295\" Byte geschrieben werden."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" ist ein Array mit 0 Byte."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" ist ein Eingabe-/Ausgabeargument für \"fread\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Ungültiger Schreibvorgang nach \"file_content\" (außerhalb des schreibbaren Bereichs)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fread\". In Zeile 12 finden Sie einen früheren Ort, an dem dies vorkommen kann."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"ftell\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:286 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist ein Eingabe-/Ausgabeargument für \"fread\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fread\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file_content\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fread\". In Zeile 19 finden Sie einen früheren Ort, an dem dies vorkommen kann."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" kann NULL sein. (In diese Verzweigung eintreten)"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" ist ein Eingabe-/Ausgabeargument für \"fread\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file_content\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fread\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fclose\". In Zeile 12 finden Sie einen früheren Ort, an dem dies vorkommen kann."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 2,
+                  "endLine": 22,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"ftell\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:286 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist ein Eingabe-/Ausgabeargument für \"fread\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fclose\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:152 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fclose\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fseek\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2,
+                  "endLine": 12,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fseek\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:270 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fseek\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 46,
+                  "endLine": 16,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "read_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fputs\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "save_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fputs\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:233 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fputs\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"file\" könnte \"0\" sein:  dies entspricht nicht der Spezifikation für Funktion \"fclose\". In Zeile 33 finden Sie einen früheren Ort, an dem dies vorkommen kann."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 2,
+                  "endLine": 35,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "save_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" kann NULL sein."
+                        }
+                      },
+                      "kinds": [
+                        "Deklaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "In diese Verzweigung eintreten (Annahme: \"<Verzweigungsbedingung>\")"
+                        }
+                      },
+                      "kinds": [
+                        "verzweigen"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fputs\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:233 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" ist eine Eingabe für \"fclose\" (in c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:152 deklariert)"
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "\"file\" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu \"fclose\" entspricht."
+                        }
+                      },
+                      "kinds": [
+                        "Verwendung"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0028B1C0 -il C:\\Users\\WORKST~1\\AppData\\Local\\Temp\\_CL_ee260251ast -typedil -f file_utils.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include\\ -I C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include\\x64 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Release\\file_utils.obj -Fdx64\\Release\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\workstation-uni\\source\\repos\\BI_Plus_GE_Gleich_2Bundesliga\\source\\parallel -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/utils.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b70e3b098e80954a5655eafe6731ed83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/utils.h"
+          },
+          "hashes": {
+            "md5": "0d176348374acfad9cd1eee5945dfa21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/string_utils.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ce15527a622124af43dde321b558ffa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/string_utils.h"
+          },
+          "hashes": {
+            "md5": "8c55b49f615377635062d4463e7160a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/source.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "593420a4dc8e828f5beeae0406e319e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft sdks/mpi/include/mpi.h"
+          },
+          "hashes": {
+            "md5": "b8a9e0283d958838b2ded88a16673352"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/export.h"
+          },
+          "hashes": {
+            "md5": "4f271700156b2ef17125df591020f44e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/mem_optimized.h"
+          },
+          "hashes": {
+            "md5": "22e6213e90d153cf900410ae1c53e9ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/shared_mem.h"
+          },
+          "hashes": {
+            "md5": "c0f64bd304be5486a046cc5fdb3b2c70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/distr_mem.h"
+          },
+          "hashes": {
+            "md5": "17f36906e547ce13fcf049fa6abf1910"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/shared_mem.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d485a009d796737b5beb910369298aef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/mem_optimized.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4aaefb57110487f352ad405300d25e72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/life106.h"
+          },
+          "hashes": {
+            "md5": "4aef51bf66d2d7754e5fd3f2cbeb1433"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/field.h"
+          },
+          "hashes": {
+            "md5": "c59ad203d9f7a5ecb3bd06d3ab4eabe6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/life106.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b8c9d6f7529f0a63571cc36c525e0396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/file_utils.h"
+          },
+          "hashes": {
+            "md5": "35ee600d9ba07c2b3aa172ed0a8c20ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e0eeb8bc86ffb555283fe25410c4713b"
+          }
+        }
+      ]
+    }
+  ]
+}

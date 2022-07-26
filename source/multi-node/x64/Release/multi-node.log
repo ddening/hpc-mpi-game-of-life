@@ -1,0 +1,13 @@
+﻿  Evtl. vorhandene Projektdateien entfernen
+  export.c
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\multi-node\export.c(52,16): warning C4013: "_mkdir" undefiniert; Annahme: extern mit Rückgabetyp int
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\multi-node\export.c(62,8): warning C4013: "_chdir" undefiniert; Annahme: extern mit Rückgabetyp int
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\multi-node\export.c(47,8): warning C4101: "mybuffer": Unreferenzierte lokale Variable
+  Code wird generiert.
+  2 of 26 functions ( 7.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  multi-node.vcxproj -> C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\x64\Release\multi-node.exe
+  Projektdatei auf Cluster kopieren
+          1 Datei(en) kopiert.

@@ -1,0 +1,11 @@
+﻿  source.c
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(26,6): warning C4101: "amount_of_data": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(28,9): warning C4101: "start_time": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(32,9): warning C4101: "array_size": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(30,9): warning C4101: "duration": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(40,6): warning C4101: "curr_f_size": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(39,9): warning C4101: "data": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(29,9): warning C4101: "end_time": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(21,6): warning C4101: "process_count": Unreferenzierte lokale Variable
+C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\parallel\source.c(22,6): warning C4101: "rank": Unreferenzierte lokale Variable
+  parallel.vcxproj -> C:\Users\workstation-uni\source\repos\BI_Plus_GE_Gleich_2Bundesliga\source\x64\Debug\parallel.exe

@@ -1,0 +1,362 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"*\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"*\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 23,
+                  "endLine": 62,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "DistrMemory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"*\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"*\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 23,
+                  "endLine": 63,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "DistrMemory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"*\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"*\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 78,
+                  "endLine": 65,
+                  "endColumn": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "DistrMemory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"*\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"*\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 41,
+                  "endLine": 65,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "DistrMemory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"*\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"*\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 63,
+                  "endLine": 66,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "DistrMemory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0028B1C0 -il C:\\Users\\WORKST~1\\AppData\\Local\\Temp\\_CL_19f32759ast -typedil -f distr_mem.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include\\ -I C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include\\x64 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Release\\distr_mem.obj -Fdx64\\Release\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\workstation-uni\\source\\repos\\BI_Plus_GE_Gleich_2Bundesliga\\source\\parallel -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/utils.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b70e3b098e80954a5655eafe6731ed83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/utils.h"
+          },
+          "hashes": {
+            "md5": "0d176348374acfad9cd1eee5945dfa21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/string_utils.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ce15527a622124af43dde321b558ffa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/string_utils.h"
+          },
+          "hashes": {
+            "md5": "8c55b49f615377635062d4463e7160a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/source.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "593420a4dc8e828f5beeae0406e319e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft sdks/mpi/include/mpi.h"
+          },
+          "hashes": {
+            "md5": "b8a9e0283d958838b2ded88a16673352"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/export.h"
+          },
+          "hashes": {
+            "md5": "4f271700156b2ef17125df591020f44e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/mem_optimized.h"
+          },
+          "hashes": {
+            "md5": "22e6213e90d153cf900410ae1c53e9ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/shared_mem.h"
+          },
+          "hashes": {
+            "md5": "c0f64bd304be5486a046cc5fdb3b2c70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/distr_mem.h"
+          },
+          "hashes": {
+            "md5": "17f36906e547ce13fcf049fa6abf1910"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/shared_mem.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d485a009d796737b5beb910369298aef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/mem_optimized.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4aaefb57110487f352ad405300d25e72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/life106.h"
+          },
+          "hashes": {
+            "md5": "4aef51bf66d2d7754e5fd3f2cbeb1433"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/field.h"
+          },
+          "hashes": {
+            "md5": "c59ad203d9f7a5ecb3bd06d3ab4eabe6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/life106.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b8c9d6f7529f0a63571cc36c525e0396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/file_utils.h"
+          },
+          "hashes": {
+            "md5": "35ee600d9ba07c2b3aa172ed0a8c20ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/file_utils.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e0eeb8bc86ffb555283fe25410c4713b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/field.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "78978661554e2a200bd06b37425eeee5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/workstation-uni/source/repos/bi_plus_ge_gleich_2bundesliga/source/parallel/export.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "40e94a9a35fbc38d883933e8c31e6d76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/workstation-uni/source/repos/BI_Plus_GE_Gleich_2Bundesliga/source/parallel/distr_mem.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "cc96216a983607f7d023e527e9bc8b95"
+          }
+        }
+      ]
+    }
+  ]
+}
