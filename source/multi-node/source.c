@@ -90,7 +90,7 @@ int main(int argc, char** argv) {
 
 	// =================================================
 	// 
-	//					MULTI NODE
+	//                   MULTI NODE
 	// 
 	// =================================================
 
@@ -117,11 +117,11 @@ int main(int argc, char** argv) {
 
 	// =================================================
 	// 
-	//				SHARED MEMORY SEGMENT
+	//              SHARED MEMORY SEGMENT
 	// 
 	// =================================================
 	// 
-	//				Create MPI Struct
+	//                Create MPI Struct
 	// 
 	// =================================================
 	int lengths[7] = { 1, 1, 1, 1, 1, 1, 1 };
@@ -144,7 +144,7 @@ int main(int argc, char** argv) {
 
 	// =================================================
 	// 
-	//				ALLOCATE SHARED MEMORY
+	//              ALLOCATE SHARED MEMORY
 	// 
 	// =================================================
 	char* shptr;	// (OUT) address of local allocated window segment 
@@ -181,7 +181,7 @@ int main(int argc, char** argv) {
 	
 	// =================================================
 	// 
-	//					Init Phase
+	//                   Init Phase
 	// 
 	// =================================================
 	cell m;
@@ -251,7 +251,7 @@ int main(int argc, char** argv) {
 
 	// =================================================
 	// 
-	//	            DISTRIBUTED MEMORY
+	//                DISTRIBUTED MEMORY
 	// 
 	// =================================================
 	int prev_rank;
@@ -295,7 +295,7 @@ int main(int argc, char** argv) {
 	
 	// =================================================
 	// 
-	//			RANK0 to RANKn working on field
+	//         RANK0 to RANKn working on field
 	// 
 	// =================================================
 
@@ -376,7 +376,7 @@ int main(int argc, char** argv) {
 	
 	// =================================================
 	// 
-	//					Merge Image
+	//                  Merge Image
 	// 
 	// =================================================
 	MPI_Barrier(MPI_COMM_NODE);

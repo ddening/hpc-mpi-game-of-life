@@ -55,7 +55,7 @@ void DistrMemory(unsigned w, unsigned h, unsigned frames, char* input_field_file
 
 	// =================================================
 	// 
-	//          DISTRIBUTED MEMORY
+	//                DISTRIBUTED MEMORY
 	// 
 	// =================================================
 	m = GameMap_Init_Distr(w, h, input_field_filename);
